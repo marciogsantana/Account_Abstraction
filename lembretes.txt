@@ -1,9 +1,0 @@
-0xa19f1292f2d92719eB4d682B52A9AAff171F087c   // contract fabric
-0xef31900C477Dc974a6d7d2558DF02D2457CAA919   // contract fabric alterado
-0x2F3a21F35c2F4D79Ff06afBcD2ED4A52Cb26f497   // ultimo contract alterado
-0x5De1bff4910Ba0ceeEb5dF57649A337641Be97f9   // ultimo contract alterado
-0x555986855B851Eb0eE239e6B56438a5c2cebc312   // ultimo contract alterado
-0x040DcC931B4ef1d4b8724950459226c8F6C26233   // ultimo contract alterado
-0x55233f8a89e22B404401Fa5e04244BE5Ed7aE343   // ultimo contract alterado
-0xD09CC9Cf976FFC5C933C9E4ad480D42332c747f1   // 0xEEee1a11B8141ceB3728E98E0b9d0131980cc6e4
-                                             // 0xBFF2e84c70E1e73AcC02AFC44Dc19A2a10A9f7d7
