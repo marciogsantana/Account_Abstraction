@@ -44,23 +44,25 @@ npm install
 
 1- npx hardhat run scripts/sample-script.js --network mumbai
 2- copiar o endereço do contrato retornado no console este contrato será o entryPoint
-3- baixar o SDK da Stackup e seguir o passo a passo para instalação das dependencias (link para pagina: https://docs.stackup.sh/docs/account-abstraction)
+3- baixar o SDK da Stackup e seguir o passo a passo para instalação das dependencias 
+(link para pagina: https://docs.stackup.sh/docs/account-abstraction)
 4- alterar o config  json:
 {
-  "rpcUrl": "https://api.stackup.sh/v1/node/5dd195124bdfce2250aeedae51ed5c20baddef73cf9b2ff663051cc0f65d7f2b",              // padrão SDK
+  "rpcUrl": "https://api.stackup.sh/v1/node/5dd195124bdfce2250aeedae51ed5c20baddef73cf9b2ff663051cc0f65d7f2b", // padrão SDK
   "signingKey": "INFORMAR A CHAVE PRIVADA DA CONTA EOA ESTA CONTA QUE SERÁ USADA PARA ASSINAR PELAS SMARTS ACCOUNTS",
   "entryPoint": "INFORMAR O ENDEREÇO DO PASSO 2",
-  "simpleAccountFactory": "0xD09CC9Cf976FFC5C933C9E4ad480D42332c747f1",                                                     // padrão SDK
+  "simpleAccountFactory": "0xD09CC9Cf976FFC5C933C9E4ad480D42332c747f1", // padrão SDK
   "paymaster": {
-    "rpcUrl": "https://api.stackup.sh/v1/paymaster/5dd195124bdfce2250aeedae51ed5c20baddef73cf9b2ff663051cc0f65d7f2b",       // padrão SDK
+    "rpcUrl": "https://api.stackup.sh/v1/paymaster/5dd195124bdfce2250aeedae51ed5c20baddef73cf9b2ff663051cc0f65d7f2b", // padrão SDK
     "context": {}
     
   }
 }
 5- No SDK executar os comandos:
 
-5.1 yarn run simpleAccount address   // pagar gerar a Smart Account
-5.2 yarn run simpleAccount transfer --to (informar uma conta normal )--amount 0.1  // neste exemplo estamos transferindo 0.1 Matic falcet da smart account para uma conta normal EOA
+5.1 yarn run simpleAccount address   // para gerar a Smart Account
+5.2 yarn run simpleAccount transfer --to (informar uma conta normal )--amount 0.1  
+# neste exemplo estamos transferindo 0.1 Matic falcet da smart account para uma conta normal EOA
 
 
 # Autor
