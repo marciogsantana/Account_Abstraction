@@ -61,7 +61,8 @@ npm install
 5- No SDK executar os comandos:
 
 5.1 yarn run simpleAccount address   // para gerar a Smart Account
-5.2 yarn run simpleAccount transfer --to (informar uma conta normal )--amount 0.1  
+5.2 Impotar Matic Faucets para a smart account  
+5.3 yarn run simpleAccount transfer --to (informar uma conta normal )--amount 0.1  
 # neste exemplo estamos transferindo 0.1 Matic falcet da smart account para uma conta normal EOA
 
 
