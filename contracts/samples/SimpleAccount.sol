@@ -27,8 +27,6 @@ contract SimpleAccount is BaseAccount, TokenCallbackHandler, UUPSUpgradeable, In
 
     event SimpleAccountInitialized(IEntryPoint indexed entryPoint, address indexed owner);
 
-    string public confirmat = "hello Rafael";
-
     modifier onlyOwner() {
         _onlyOwner();
         _;
@@ -122,11 +120,7 @@ contract SimpleAccount is BaseAccount, TokenCallbackHandler, UUPSUpgradeable, In
         return entryPoint().balanceOf(address(this));
     }
 
-    function getconfirmat() public view returns (string memory) {
-        return confirmat;
-    }
-
-    /**
+   /**
      * deposit more funds for this account in the entryPoint
      */
     function addDeposit() public payable {
