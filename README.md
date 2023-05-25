@@ -11,7 +11,7 @@ Este projeto usa o SimpleAccountFactory.sol como uma fábrica de contratos que i
 ### Funcionamento
 ![Esquema](https://github.com/marciogsantana/imagens/blob/main/esquema_funcionamento.png) 
 
-1- Este contrato implementa o User Operations O SDK da Stackup implementa o restante e retorna a account abstraction que podemos usar normalmente como uma conta EOA
+1- Este contrato implementa o User Operations. O SDK da Stackup implementa o restante e retorna a account abstraction que podemos usar normalmente como uma conta EOA
 
 
 # Tecnologias utilizadas
