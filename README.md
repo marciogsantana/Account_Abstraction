@@ -42,13 +42,13 @@ npm install
 # fazer deploy do contrato na rede de testes Polygon Munbai
 
 1- npx hardhat run scripts/sample-script.js --network mumbai
-2- copiar o endereço do contrato retornado no console este contrato sera usado como referencia para este SDK
+2- copiar o endereço do contrato retornado no console, este contrato sera usado como referencia para este SDK
 3- baixar o SDK da Stackup e seguir o passo a passo para instalação das dependencias 
 (link para pagina: https://docs.stackup.sh/docs/account-abstraction)
 4- alterar o config  json:
 {
   "rpcUrl": "https://api.stackup.sh/v1/node/5dd195124bdfce2250aeedae51ed5c20baddef73cf9b2ff663051cc0f65d7f2b", // padrão SDK
-  "signingKey": "INFORMAR A CHAVE PRIVADA DA CONTA EOA ESTA CONTA QUE SERÁ USADA PARA ASSINAR PELAS SMARTS ACCOUNTS",
+  "signingKey": "INFORMAR A CHAVE PRIVADA DA CONTA EOA, ESTA CONTA QUE SERÁ USADA PARA ASSINAR PELAS SMARTS ACCOUNTS",
   "entryPoint": "0x5FF137D4b0FDCD49DcA30c7CF57E578a026d2789", // padrão SDK
   "simpleAccountFactory": "INFORMAR O ENDEREÇO DO PASSO 2", 
   "paymaster": {
