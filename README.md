@@ -31,7 +31,7 @@ git clone https://github.com/marciogsantana/Account_Abstraction
 
 ```bash
 
-# alterar o arqvuivo .env
+# alterar o arquivo .env
 inserir as chaves para autenticação
 
 # Na raiz do projeto
