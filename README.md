@@ -2,8 +2,7 @@
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/marciogsantana/Account_Abstraction/blob/master/LICENSE) 
 
 # Sobre o projeto
-Account Abstraction (abstração de conta) é uma técnica usada em blockchain que separa a identidade do usuário do mecanismo de pagamento subjacente. Essa abstração traz várias vantagens, incluindo maior privacidade e segurança. Ao separar a identidade, os usuários podem realizar transações sem revelar detalhes confidenciais, como saldo da conta ou histórico de transações. Além disso, a abstração de conta permite que diferentes mecanismos de pagamento sejam usados ​​em uma única conta, tornando os pagamentos mais flexíveis e interoperáveis. Essa flexibilidade abre caminho para inovação, permitindo o desenvolvimento de novos modelos de negócios e casos de uso em blockchain.
-
+O ERC-4337 e a abstração de conta trazem diversas vantagens para os usuários, proporcionando uma experiência agradável e simplificada. O ERC4337 é um padrão de token que permite a interoperabilidade entre diferentes blockchains, facilitando a transferência de ativos digitais de forma rápida e segura. Com a abstração de conta, os usuários podem desfrutar de uma experiência mais amigável, eliminando a necessidade de gerenciar múltiplas chaves privadas e endereços em diferentes blockchains. Isso simplifica significativamente o processo de interação com aplicativos descentralizados (dApps) e facilita o uso de recursos em diferentes plataformas blockchain, tornando a experiência do usuário mais intuitiva e acessível.
 ### Gerar smarts accounts
 
 Este projeto usa o SimpleAccountFactory.sol como uma fábrica de contratos que implementa o SimpleAccountFactory.sol, podemos fazer nossa lógica e alterações apenas no SimpleAccountFactory.sol
